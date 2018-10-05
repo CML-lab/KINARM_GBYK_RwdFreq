@@ -1,0 +1,170 @@
+<?xml version="1.0" ?>
+<task_protocol>
+	<analog_inputs>
+		[['tgt1_state', '', 1.0, 0.0, '', True], 
+		['tgt2_state', '', 1.0, 0.0, '', True], 
+		['reward', '', 1.0, 0.0, '', True], 
+		['score', '', 1.0, 0.0, '', True], 
+		['postrig', '', 1.0, 0.0, '', False], 
+		['veltrig', '', 1.0, 0.0, '', False], 
+		['disttrig', '', 1.0, 0.0, '', False], 
+		['vhitmax', '', 1.0, 0.0, '', False], 
+		['handvel2d', '', 1.0, 0.0, '', True]]
+	</analog_inputs>
+	<blocktable>
+		[['31', 1, '', False, 1], 
+		['1', 10, '2', True, 4], 
+		['30,32', 1, '', False, 0], 
+		['3', 10, '6', True, 0], 
+		['30,33', 1, '', False, 0], 
+		['7', 10, '10', True, 0], 
+		['30,34', 1, '', False, 1], 
+		['11', 10, '14', True, 4], 
+		['30', 1, '', False, 1]]
+	</blocktable>
+	<code>
+		''
+	</code>
+	<data_rate>
+		1000
+	</data_rate>
+	<description>
+		''
+	</description>
+	<feedback_mode>
+		1
+	</feedback_mode>
+	<gaze_feedback_mode>
+		0
+	</gaze_feedback_mode>
+	<instructions>
+		''
+	</instructions>
+	<instructions_default>
+		u''
+	</instructions_default>
+	<last_modified>
+		'2018-10-02  02:42 PM'
+	</last_modified>
+	<loadtable>
+		[]
+	</loadtable>
+	<loadtable_defs>
+		[]
+	</loadtable_defs>
+	<name>
+		u'gbyk_RwdL_Freq10-1'
+	</name>
+	<pause_behaviour>
+		0
+	</pause_behaviour>
+	<random_seed>
+		1
+	</random_seed>
+	<targetfor_ep>
+		('Handle', ['Active', 0, -44], True)
+	</targetfor_ep>
+	<targetfor_exo>
+		['Fingertip', ['Active', 30, 90], True]
+	</targetfor_exo>
+	<targettable>
+		[[0.0, -5.0, 1.0, 1.5, '160160160', '0', 0.2, '255255255', &quot;'0'&quot;, 1.2], 
+		[7.65, 13.477, 1.0, 1.5, '000128255', '000255064', 0.2, '255255255', &quot;'0'&quot;, 1.2], 
+		[-7.65, 13.477, 1.0, 1.5, '000128255', '000255064', 0.2, '255255255', &quot;'0'&quot;, 1.2], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, -7.0, 0.0, 0.0, '1000000000', '1000000000', 0.0, '255255255', &quot;'0'&quot;, 2.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 0.0, 0.0, '0', '0', 0.0, '0', '', 0.0], 
+		[0.0, 0.0, 45.0, 0.0, 'instructions1.png', '0', 0.0, '0', '', 25.0], 
+		[0.0, 0.0, 45.0, 0.0, 'instructions2.png', '0', 0.0, '0', '', 25.0], 
+		[0.0, 0.0, 45.0, 0.0, 'instructions3.png', '0', 0.0, '0', '', 25.0], 
+		[0.0, 0.0, 45.0, 0.0, 'instructions4.png', '0', 0.0, '0', '', 25.0]]
+	</targettable>
+	<targettable_defs>
+		[['X', 'float'], ['Y', 'float'], ['Visual radius', 'float'], ['Logical radius', 'float'], ['Initial color', 'colour'], ['Reached color', 'colour'], ['Stroke Width', 'float'], ['Text Color', 'colour'], ['Label Text', 'label'], ['Label Height', 'float']]
+	</targettable_defs>
+	<tasklevelparams>
+		[['K_SCORETEXT_ROW', '20'], 
+		['K_TONE_ERROR_FREQUENCY', '1'], 
+		['K_THRESH_VELMAX', '0.30'], 
+		['K_TRIGGER_POS', '0.04'], 
+		['K_TRIGGER_VEL', '0.10'], 
+		['K_TONE_HIT_DURATION', '100'], 
+		['K_TONE_ERROR_DURATION', '500'], 
+		['K_DELAY_RAND', '600'], 
+		['K_TONE_GO_FREQUENCY', '4000'], 
+		['K_REWARD_VAL', '5'], 
+		['K_TONE_GO_DURATION', '100'], 
+		['K_DELAY_FIXED', '600'], 
+		['K_TONE_HIT_FREQUENCY', '12000']]
+	</tasklevelparams>
+	<tasklevelparams_defs>
+		[['K_REWARD_VAL', 'integer'], ['K_SCORETEXT_ROW', 'integer'], ['K_DELAY_FIXED', 'integer'], ['K_DELAY_RAND', 'integer'], ['K_TRIGGER_VEL', 'float'], ['K_TRIGGER_POS', 'float'], ['K_THRESH_VELMAX', 'float'], ['K_TONE_HIT_FREQUENCY', 'integer'], ['K_TONE_HIT_DURATION', 'integer'], ['K_TONE_GO_FREQUENCY', 'integer'], ['K_TONE_GO_DURATION', 'integer'], ['K_TONE_ERROR_FREQUENCY', 'integer'], ['K_TONE_ERROR_DURATION', 'integer']]
+	</tasklevelparams_defs>
+	<tptable>
+		[[1, 2, 3, 1, 1, 1000, 500, 0], 
+		[1, 3, 2, 1, 1, 1000, 500, 0], 
+		[1, 2, 3, 1, 2, 1000, 500, 0], 
+		[1, 3, 2, 1, 2, 1000, 500, 0], 
+		[1, 2, 3, 2, 1, 1000, 500, 0], 
+		[1, 3, 2, 2, 1, 1000, 500, 0], 
+		[1, 2, 3, 1, 5, 1000, 500, 0], 
+		[1, 3, 2, 1, 5, 1000, 500, 0], 
+		[1, 2, 3, 5, 1, 1000, 500, 0], 
+		[1, 3, 2, 5, 1, 1000, 500, 0], 
+		[1, 2, 3, 1, 10, 1000, 500, 0], 
+		[1, 3, 2, 1, 10, 1000, 500, 0], 
+		[1, 2, 3, 10, 1, 1000, 500, 0], 
+		[1, 3, 2, 10, 1, 1000, 500, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[0, 0, 0, 0, 0, 0, 0, 0], 
+		[1, 1, 1, 0, 0, 3000, 500, -1], 
+		[1, 1, 1, 0, 0, 2000, 500, 1], 
+		[1, 1, 1, 0, 0, 2000, 500, 2], 
+		[1, 1, 1, 0, 0, 2000, 500, 3], 
+		[1, 1, 1, 0, 0, 2000, 500, 4]]
+	</tptable>
+	<tptable_defs>
+		[['Start target', 'target'], ['True target', 'target'], ['Distractor target', 'target'], ['Target1 Value', 'int'], ['Target2 Value', 'int'], ['Maximum Reach Time', 'int'], ['Trial-End Delay', 'int'], ['Flag Display', 'int']]
+	</tptable_defs>
+	<use_repeat_trial_flag>
+		0
+	</use_repeat_trial_flag>
+	<version>
+		3.7
+	</version>
+	<video>
+		''
+	</video>
+</task_protocol>
