@@ -44,7 +44,7 @@
 		u''
 	</instructions_default>
 	<last_modified>
-		'2018-10-02  03:47 PM'
+		'2018-10-10  01:46 PM'
 	</last_modified>
 	<loadtable>
 		[]
@@ -111,7 +111,7 @@
 		['K_TONE_ERROR_DURATION', '500'], 
 		['K_DELAY_RAND', '600'], 
 		['K_TONE_GO_FREQUENCY', '4000'], 
-		['K_REWARD_VAL', '10'], 
+		['K_REWARD_VAL', '5'], 
 		['K_TONE_GO_DURATION', '100'], 
 		['K_DELAY_FIXED', '600'], 
 		['K_TONE_HIT_FREQUENCY', '12000']]
